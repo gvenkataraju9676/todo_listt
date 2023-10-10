@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(165, 193, 208);
+}
+.container {
+  position: relative;
+  width: 60%;
+  margin: auto;
+  color:2px solid rgb(0, 0, 0);
+  background-color: rgb(216, 243, 243) !important;
+  height: auto;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.header {
+  color: rgb(1, 255, 6);
+  text-shadow: 1px 1px 2px black, -1px -1px 2px black;
+}
+
+.add-div {
+  padding: 2.4%;
+}
+
+.form--card {
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+
+}
+form input,
+.form button,
+.form input:hover,
+.form button:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  font-weight: 100 !important;
+  text-shadow: none;
+  float: left;
+}
+
+.form-group {
+  margin-bottom: 10px;
+  display:grid;
+}
+
+label {
+  float:left;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 5px;
+}
+input,
+button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: black;
+  font-size: 18px;
+  box-shadow: 1px 1px 2px rgb(35, 35, 35), -1px -1px 2px rgb(46, 46, 46);
+  text-shadow: 1px 1px 2px black;
+}
+
+input:hover,
+button:hover {
+  background-color: rgb(225, 251, 236);
+  color: rgb(0, 0, 0);
+}
+
+.task-list {
+  margin-bottom: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10%;
+}
+
+.task--card {
+  background-color: #d5e8e5;
+  border:2px solid rgb(187, 180, 180);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.alert-message {
+  background-color: #ec9993;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.alert-message p {
+  margin: 0;
+}
+
+.alert-message button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.task {
+  color: #4caf50;
+}
+
+.task.completed {
+  /* Styles for completed tasks */
+  background-color: lightgray;
+  text-decoration: line-through;
+}
+.container-none {
+  display: none !important;
+}
+
+.display--none {
+  display: none;
+}
+
+/* .z-10 {
+  z-index: 10;
+} */
+
+.completed {
+  background-color: greenyellow;
+}

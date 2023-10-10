@@ -1,0 +1,16 @@
+[
+  {
+    "name": "R.R.R",
+    "director": "S.S.Rajamouli",
+    "genre": "Action/Drama",
+    "completed": false,
+    "key": "defaultTask-1"
+  },
+  {
+    "name": "K.G.F",
+    "director": "Prasanth Neel",
+    "genre": "Action/Crime/Drama",
+    "completed": false,
+    "key": "defaultTask-2"
+  }
+]
